@@ -14,10 +14,39 @@
     background-color: lightgray;
     padding: 10px
 }
-#div-raw{
-    text-align: center;
-    font-weight: bold;
-}
+
 .navbar-nav{
     text-align: center;
+}
+.menu-title{
+    text-align: center;
+}
+.div-chick{
+        
+        float: left;
+        margin-left: 30px;
+        background-color: lightgray;
+        padding: 10px;
+    }
+@media (min-width: 992px){
+    .div-chick{
+        width: 30%;
+        
+    }
+}
+
+@media (max-width: 991px){
+    .div-chick{
+        width: 40%;
+        float: left;
+        margin: 20px;
+        padding: 10px;
+
+    }
+    #last{
+        clear: both;
+        width: 98%;
+        margin: 10px;
+
+    }
 }
