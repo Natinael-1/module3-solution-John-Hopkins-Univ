@@ -1,0 +1,23 @@
+
+.navbar{
+    background-color: pink;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; 
+    
+}
+#h1{
+    text-align: center;
+    margin-top: 19px;
+}
+#div-menu{
+    margin: 30px;
+    background-color: lightgray;
+    padding: 10px
+}
+#div-raw{
+    text-align: center;
+    font-weight: bold;
+}
+.navbar-nav{
+    text-align: center;
+}
